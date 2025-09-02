@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers the inner-div horizontally */
+        align-items: center; /* Centers the inner-div vertically */
+        /* margin-top: 10rem; */
+        height: 100vh;
+    }
+
+    .header-container{
+        background-color: red;
+        display: flex; /* Makes the outer-container a flex container */
+        justify-content: center; /* Centers the inner-div horizontally */
+        align-items: center; /* Centers the inner-div vertically */
+        width: 85%; /* Example width for the outer container */
+        height: 40%; /* Example height for the outer container */
+        background-color: #f0f0f0; /* Background color of the rectangle */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Box shadow properties */
+        position: relative;
+    }
+
+    .girls-image-container{
+        padding: 1rem;
+        /* background-color: orange; */
+        width: 80%;
+        position: absolute;
+    }
+
+    .girl-image-container{
+        /* background-color: blue; */
+        width: 19%;
+        display: inline-block;
+        padding-bottom: 16rem;
+    }
+
+    .girl-image{
+        width: 5rem;
+    }
+    .girl1{
+        padding-bottom: 11rem;
+    }
+    .girl2{
+        padding-bottom: 10rem;
+    }
+
+    .girl3{
+        padding-bottom: 11.8rem;
+    }
+
+    .girl4{
+        padding-bottom: 10rem;
+    }
+
+    .girl5{
+        padding-bottom: 11.3rem;
+    }
+
+
+</style>
+
+<body>
+    <div class="contents">
+
+        <div class="girls-image-container">
+            <div class="girl-image-container">
+                <img class="girl-image girl1" src="./girl1.png" alt="Placeholder image">
+            </div>
+
+            <div class="girl-image-container">
+                <img class="girl-image girl2" src="./girl2.png" alt="Placeholder image">
+            </div>
+
+            <div class="girl-image-container">
+                <img class="girl-image girl3" src="./girl3.png" alt="Placeholder image">
+            </div>
+
+            <div class="girl-image-container">
+                <img class="girl-image girl4" src="./girl4.png" alt="Placeholder image">
+            </div>
+
+            <div class="girl-image-container">
+                <img class="girl-image girl5" src="./girl5.png" alt="Placeholder image">
+            </div>
+        </div>
+
+        <div class="header-container">
+            <div class="responsive-box">
+                <div class="h1-div">
+                    <h1>Largest Screen Size</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
