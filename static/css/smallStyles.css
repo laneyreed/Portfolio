@@ -17,7 +17,7 @@ body {
   background: radial-gradient(circle, rgba(255, 246, 255, 1) 0%, rgba(105, 0, 209, 1) 100%);
 }
 
-.small-content{
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,7 +150,7 @@ body {
 }
 
 /*************************************Change design**********************************************************/
-@media (min-width: 587px) {
+@media (min-width: 590px) {
   /* CSS rules for screen widths 409px and larger */
 
 }
@@ -185,14 +185,4 @@ footer{
 .caret{
     height: 1rem;
     color: #9f88b1;
-}
-
-
-
-/*************************************Change design**********************************************************/
-@media (min-width: 590px) {
-  /* CSS rules for screen widths 409px and larger */
-  .small-content{
-    display: none;
-  }
 }
