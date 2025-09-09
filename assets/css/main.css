@@ -1,4 +1,8 @@
 @import url("header.css");
-
+@import url("projects.css");
 
 /* Global Styles */
+body{
+    background: radial-gradient(circle, rgba(255, 246, 255, 1) 0%, rgba(105, 0, 209, 1) 100%);
+
+}

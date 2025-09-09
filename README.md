@@ -7,4 +7,3 @@ Personal Portfolio
 
 # Home Mobile Design
 ![Home Mobile Design](assetsreadme/home-mobile-design.png)
-- up to 443

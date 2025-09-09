@@ -1,0 +1,11 @@
+.projects-container {
+  margin-top: 20rem;
+}
+
+.project-images-row {
+  margin-bottom: 4rem;
+}
+
+.project-image {
+  border-radius: 12px;
+}
