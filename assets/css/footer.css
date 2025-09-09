@@ -1,0 +1,22 @@
+.footer{
+    background-color: #392A46;
+    min-width: 100%;
+    height: 15rem;
+    padding: 1rem;
+    color: #9F88B1;
+}
+
+.footer-nav-row a{
+    text-decoration: none;
+    color: #9F88B1;
+    margin-bottom: .5rem;
+}
+
+.footer-social{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.copyright{
+    margin-top: 1rem;
+}

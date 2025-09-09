@@ -15,11 +15,10 @@
   left: 50%;
   transform: translate(-50%, 0%);
   z-index: 10;
-  height: 300px;
   background-color: #fff6ff;
-  border: 0.4rem solid #6900d1;
-  border-style: double;
+  border: 10px double #6900d1;
   border-radius: 32px;
+  padding: 2rem 0;
 }
 
 .header-content-container h1 {
@@ -29,7 +28,7 @@
 
 .role-row {
   color: #9f88b1;
-  margin-bottom: 1rem;
+
 }
 
 .tagline-row {
@@ -38,7 +37,7 @@
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: italic;
-  margin-bottom: 1rem;
+
 }
 
 .header-container a {
@@ -47,10 +46,10 @@
 }
 
 .social-row {
-  margin-bottom: 3rem;
+ padding-bottom: 1rem;
 }
 
-.social-icons {
+.social-icon {
   color: #6900d1;
   font-size: 2rem;
 }
