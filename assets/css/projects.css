@@ -1,11 +1,20 @@
-.projects-container {
+.projects-section{
   margin-top: 20rem;
 }
 
-.project-images-row {
-  margin-bottom: 4rem;
+.projects-intro-container h2{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+
 }
 
-.project-image {
-  border-radius: 12px;
+.project-card-container{
+  margin-bottom: 2rem;
+}
+
+.project-card{
+  background-color: #392A46;
+  color: #9F88B1;
 }
