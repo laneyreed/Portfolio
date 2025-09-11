@@ -1,0 +1,65 @@
+      .contact-section{
+        margin-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+            
+      .contact-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      
+      .contact-actions{
+          background-color: #392A46;
+          border: 1px solid #6c757d;
+          border-radius: 10px;
+          padding: 2rem;
+          max-width: 720px;
+
+      }
+
+      .contact-button-container{
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      .contact-button{
+         color: #9F88B1;
+         border-color: #9F88B1 ;
+      }
+
+    /* FORM */
+      .contact-input{
+         background-color: transparent;
+         border-color: #9F88B1;
+      }
+
+      .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #9F88B1; /* Replace with your desired color */
+        opacity: 1; /* Firefox adds a lower opacity by default, reset it */
+      }
+
+      .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #9F88B1;
+      }
+
+      .form-control::-ms-input-placeholder { /* Microsoft Edge */
+        color: #9F88B1;
+      }
+
+      .form-control:focus{
+        background-color: transparent;
+        border-color: #FFF6FF;
+      }
+
+      .send-button-container{
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .send-button{
+        border: none;
+        background-color: #6900d1;
+      }
